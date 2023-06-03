@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>FinalTest</title>
+    <link href="./signup.css" rel="stylesheet">
+    <script src="./empty.js"></script>
+    <script src="./phone.js"></script>
+    <script src="./target.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="wrapper__body">
+            <div class="wrapper__body__header">코드캠프 회원가입</div>
+            <div class="wrapper__body__info">
+                <form class="body__info">
+                    <input class="info__input" id="email" type="text" placeholder="이메일을 입력하세요." oninput="email_empty_ValidChecksum()">
+                    <input class="info__input" id="name" type="text" placeholder="이름을 입력하세요." oninput="name_empty_ValidChecksum()">
+                    <input class="info__input" id="password" type="text" placeholder="비밀번호를 입력하세요." oninput="password_empty_ValidChecksum()">
+                    <input class="info__input" id="password2" type="text" placeholder="비밀번호를 다시 입력하세요." oninput="password2_empty_ValidChecksum()">
+                </form>
+                <div class="body__number">
+                    <input class="info__number__first" id="first_number" type="text" maxlength="3" oninput="changeFocus()"> -
+                    <input class="info__number__second" id="second_number" type="text" maxlength="4" oninput="changeFocus1()"> - 
+                    <input class="info__number__third" id="third_number" type="text" maxlength="4">
+                </div>
+                <div class="body__number__target">
+                    <div class="target__auth">
+                        <div class="target" id="target">000000</div>
+                        <button class="target__random" id="target__random" onclick="auth()">인증번호 전송</button>
+                    </div>
+                    <div class="target__timer">
+                        <div class="timer" id="timer">00:00</div>
+                        <button class="timer__finish" id="timer__finish">인증완료</button>
+                    </div>
+                </div>
+                <div class="body__location">
+                    <select style="width:500px; height:50px; border-radius: 7px;">
+                        <option disabled="true" selected="true">지역을 선택하세요.</option>
+                        <option>서울</option>
+                        <option>경기</option>
+                        <option>강원</option>
+                        <option>충북</option>
+                        <option>충남</option>
+                        <option>대구/경북</option>
+                        <option>경남</option>
+                        <option>전북</option>
+                        <option>전남</option>
+                        <option>인천</option>
+                        <option>대구</option>
+                        <option>대전</option>
+                        <option>광주</option>
+                        <option>부산</option>
+                    </select>
+                </div>
+                <div class="body__gender">
+                    <div class="gender__woman">
+                        <input type="radio" name="gender" style="width:15px;height:15px;border:1px;">여성
+                    </div>
+                    <div class="gender__man">
+                        <input type="radio" name="gender" style="width:15px;height:15px;border:1px;">남성
+                    </div>
+                </div>
+                <div class="body__agree">
+                    <input type="checkbox" id="agree__info" style="width:15px;height:15px;border:1px;">
+                    <label for="agree__info" class="agree__info__label">이용약관 개인정보 수집 및 이용, 마케팅 활용 선택에 모두 동의합니다.</label>
+                </div>
+            </div>
+            
+            <div class="wrapper__body__line"></div>
+            <div class="wrapper__body__join">
+                <div class="body__join__button">
+                    <button class="join__button" id="submit" onclick="complete_join()">가입하기</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

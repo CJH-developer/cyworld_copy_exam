@@ -1,0 +1,195 @@
+.first_bg{
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    left: 0px;
+    top: 0px;
+    
+    background: #FFFFFF;
+}
+
+
+.member{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 670px;
+    height: 960px;
+    left: 625px;
+    top: 60px;
+
+    background: #FFFFFF;
+    border: 1px solid #AACDFF;
+    box-shadow: 7px 7px 39px rgba(0, 104, 255, 0.25);
+    border-radius: 20px;
+    padding-top: 15;
+}
+
+
+.top-t{
+    position: absolute;
+    width: 466px;
+    height: 94px;
+    left: 100px;
+    top: 72px;
+    margin: auto;
+
+    font-family: 'Noto Sans CJK KR';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 47px;
+
+    color: #0068FF;
+}
+
+.e_t{
+    position: absolute;
+    border:2px solid #aaa;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: .3s;
+    left : 100px;
+    top : 200px;
+    width: 466px;
+
+    font-family: 'Noto Sans CJK KR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+}
+.e_t:focus{
+    border-color:dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+
+.n_t{
+    position: absolute;
+    border:2px solid #aaa;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: .3s;
+    left : 100px;
+    top : 270px;
+    width: 466px;
+
+    font-family: 'Noto Sans CJK KR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+}
+.n_t:focus{
+    border-color:dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+
+.p_t{
+    position: absolute;
+    border:2px solid #aaa;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: .3s;
+    left : 100px;
+    top : 340px;
+    width: 466px;
+
+    font-family: 'Noto Sans CJK KR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+}
+.p_t:focus{
+    border-color:dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+
+.pc_t{
+    position: absolute;
+    border:2px solid #aaa;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: .3s;
+    left : 100px;
+    top : 410px;
+    width: 466px;
+
+    font-family: 'Noto Sans CJK KR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+}
+.pc_t:focus{
+    border-color:dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+
+.genders{
+    position: absolute;
+    width: 140px;
+    height: 23.94px;
+    left: 270px;
+    top: 500px;
+}
+
+.Agree{
+    position: absolute;
+    width: 454px;
+    height: 21.06px;
+    left: 100px;
+    top: 550px;
+
+}
+
+#Agree_info {
+    position: relative;
+    top: 5.0px;
+  }
+
+label.Agree_info2{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 13px;
+    margin-right: 10px;
+    color: black;
+    position: relative;
+    top: 3px;
+  }
+
+
+  .j_btn{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 470px;
+    height: 75px;
+    left: 100px;
+    top: 620px;
+
+    background: #FFFFFF;
+    border: 1px solid #0068FF;
+    border-radius: 10px;
+  }
